@@ -44,7 +44,7 @@ Unofficial reference, not affiliated with ESA. See `../docs/TIERS.md` for the st
 | Fixed (central) panel, bounding box across x fore-aft | about 1355 x 1058 (stepped outline; main block alone 1138 across) | 339 x 265 | studio plan-view render (solar-cell lattice as the ruler) ; photogrammetry had 1300 x 1090 | derived | about 20 | B |
 | Cell outline | 40 x 80 (chamfered corners) | 10 x 20 | AZUR 3G30C datasheet (probably the rover's cell, not confirmed) | stated for the datasheet cell | about 0.1 | B |
 | Cell pitch along a string | 40.6 to 40.8 | 10.2 | measured on the central panel | derived | about 0.2 | A |
-| Cell counts | 18 per string; 720 total (288 central, 108 per deployable panel) | n/a | Ferrando et al. 2017, Astrium SAMM summary report 2005 | stated | 0 | A |
+| Cell counts | 18 per string; 720 total (288 central, 108 per deployable panel) | n/a | Ferrando et al. 2017, Astrium SAMM summary report 2005, Riva et al. 2019 (fixed 16p18s = 288, each deployable 6p18s = 108) | stated | 0 | A |
 | Cell area | 2.17 m2 (0.87 central, 0.33 per deployable panel) | n/a | derived from the counts and the datasheet cell | derived | small | B |
 
 ## Body and rear
@@ -53,6 +53,7 @@ Unofficial reference, not affiliated with ESA. See `../docs/TIERS.md` for the st
 |---|---|---|---|---|---|---|
 | Body (warm box) height | about 580 | 145 | Vago et al. 2017, Fig. 4 pixel reading | derived | about 40 | C |
 | Body plan size (across x fore-aft) | not measured by ESA SPICE kernels (K1) (it gives reference points, not outlines); the stowed envelope (1500 x 1410) is the nearest bound |  | unresolved; TAS ground-test-model photos (tier C, ): the white front panels span about 894 across, the gold side box is about 1065 fore-aft (+- 60), after correcting the side plane for the box's lateral protrusion of about 120 mm read in GTM1; it matches the 1058 fixed panel | unknown | large | D |
+| ALD radiators = the two white front panels | named in ESA/Thales Alenia Space/Airbus CAD figures (Fig. 2 of the 2021 ICES loop-heat-pipe paper); plate areas 0.2054 m2 (ALD Up) and 0.10545 m2 (ALD Low); measured widths about 458 and 238 mm (ground test model photos, +-5 percent; about 481 and 250 at the LocCam-anchored scale); if both are rectangles of equal height the heights come out at 0.42 to 0.45 m (the width ratio 1.92 matches the area ratio 1.95 to 1.3 percent), the lower part hidden behind the stowed drill box |  | ICES-2021 loop-heat-pipe paper (areas, names); GTM front-face photos (widths); height arithmetic ours | stated (areas, identity); derived (widths, height) | areas about 0; widths about 5 percent; height about 8 percent (the left panel has a window and a notch, so its true height is slightly more than area / width) | areas A; widths and height C |
 | WISDOM antenna | 410 x 200 x 180 | 102 x 50 x 45 | Herve et al. 2020, Benedix et al. 2013, Benedix et al. 2024 (as built 410 x 199 x 178) | stated | about 0; the photogrammetry agrees to a few percent | A |
 | WISDOM antenna height above ground (lower edge) | 380 | 95 | Herve et al. 2020, Benedix et al. 2024 | stated | about 10 | A |
 | WISDOM tilt back | 8 degrees (antenna boresight against the base frame) |  | ESA SPICE kernels (K1) frames kernel (the 2011 design paper Ciarletti et al. 2011 said 7) | stated (ESA/ROCC) | about 0 | A |
@@ -65,6 +66,7 @@ Unofficial reference, not affiliated with ESA. See `../docs/TIERS.md` for the st
 | Head envelope, camera heights | unknown |  | Coates et al. 2017 gives no envelope; the photogrammetry cannot see the head | unknown |  | D |
 | WAC stereo baseline | 495.2 (calibrated; 500 is the nominal in Coates et al. 2017 and Vago et al. 2017, Fig. 4) | 124 | ESA SPICE kernels (K1) (WAC offsets +-247.6 from the PanCam frame, from calibration data) and Coates et al. 2017 | stated | about 0 | A |
 | NavCam baseline / LocCam baseline / camera heights above ground | 154 / 154 / NavCam 2051.5, WAC 2066, HRC 2045, ISEM 1967, LocCam 942.4 |  | ESA SPICE kernels (K1) | stated (ESA/ROCC) | about 0 | A |
+| ISEM optical box / electronics box (replaced by Enfys) | 160 x 80 x 96 / 116 x 84 x 55; ISEM sat 154 mm right of the pan-tilt axis and 85 below the NavCam level in the kernel; Enfys (its replacement) sits on top of the mast directly under the HRC, size not published |  | Korablev et al. 2017 Table 2 (ISEM); Enfys LPSC abstract 2025 (placement); ESA SPICE kernels (K1) | stated | about 0 for ISEM; Enfys size unknown | ISEM A, Enfys D |
 | Mast pole diameter | about 115 (photogrammetry core, low confidence) | 29 | photogrammetry | derived | about 30 | D |
 
 ## Drill
@@ -88,7 +90,7 @@ Unofficial reference, not affiliated with ESA. See `../docs/TIERS.md` for the st
 | PCT shadow posts | stems 4.5, balls 9, 15 high | 1.1, 2.3, 3.8 | one photo | measured | about 2 | C |
 | FidM (fiducial marker) shape | 32 x 16 x 6.5, waisted, 9 to 10 mm bare disc | 8 x 4 x 1.6 | stated envelope (Coates et al. 2017); shape from the Fig. 11 inset | stated + derived | about 10 percent on the shape | C |
 | FidM positions | unknown |  | arrows in Fig. 11 only (left-rear corner area, front tongue beside the PCT, right-rear bracket) | unknown | about 100 or worse | D |
-| Two T-shaped deck posts | identified 2026-11-21: the two UHF monopole antennas (ESA's current-design render labels a T-post 'Communication antennas'; the ESA caption of the rear-view render, ESA rear-view render caption, says 'Two UHF monopole antennas are used to communicate with Mars orbiters'); size still unknown |  | ESA render label and caption (identity inferred from the label pointing at the post) | stated (identity), size unknown |  | C for identity, D for size |
+| Two T-shaped deck posts | identified 2026-11-21: the two UHF monopole antennas (also labelled 'UHF Antennas' on the deck in the CAD figures of the 2021 ICES loop-heat-pipe paper) (ESA's current-design render labels a T-post 'Communication antennas'; the ESA caption of the rear-view render, ESA rear-view render caption, says 'Two UHF monopole antennas are used to communicate with Mars orbiters'); size still unknown |  | ESA render label and caption (identity inferred from the label pointing at the post) | stated (identity), size unknown |  | C for identity, D for size |
 | Small silver cones | unidentified (candidates: the dome caps of the suspension joints; not checked) |  | video, Fig. 11 | unknown |  | D |
 | RIM (rover inspection mirror) | 50 mm sphere, on the left bogie bracket | 12.5 | Coates et al. 2017 | stated | 0 | A |
 | Small separate multi-disc target on the lower body | about 15 across, unidentified |  | animation frames | unknown |  | D |
