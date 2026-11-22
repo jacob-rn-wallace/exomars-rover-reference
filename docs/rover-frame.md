@@ -45,5 +45,11 @@ Independent estimates made elsewhere agree with these values: the track equals t
 
 Not in the kernel: body outline and size, drill box size, panel sizes, wheel width and grousers, anything on the deck (PCT, FidMs, antennas), the shape of any part. The structure kernel positions reference points (hinges, pivots, optical centres), not outlines.
 
+## Drill positioner kinematics and the stowed drill pose
+- The positioner has a translation joint (TRA, along the rover's vertical) and a rotation joint (ROT, about the rover's x axis); their axes intersect at (340.0, 100.0, 393.8) mm in the rover frame (693.8 above ground), defined with the drill horizontal and highest.
+- Named positions: stowed TRA 135 mm, ROT 0; lifting TRA 5, ROT 0; vertical alignment TRA 5, ROT 90; drilling TRA 375, ROT 90 (lowest); horizontal before sample discharge TRA 0, ROT 180; sample discharge TRA 5, ROT 150. ROT 0 means the drill is horizontal below the rotation axis. The drill string at full extension travels about 1.5 m. The core-sample transfer travels 300 mm.
+- The retracted drill tip is (+140.9, +342.9, -160.6) mm from the positioner moving frame. Stowed (all frames aligned): **tip at x = 480.9, y = +442.9 (the rover's left end), z = 98.2 (398 above ground)**; the drill axis runs along y at x = 480.9, z = 98.2.
+- The frames kernel's text gives the drill rod diameter as 25 mm where Altieri et al. 2023 give 20 mm for the tool; the difference is unresolved (probably tool versus rod).
+
 ## Instrument kernels (`ik/`)
 Fields of view only (half-angles in the file): WAC 19.15 degrees (38.3 degrees full, square), HRC 2.44 (4.9 full), NavCam and LocCam 32.5 (65 full). No focal lengths or pixel sizes are given. The frame kernel also records the calibrated PanCam bench misalignment against the pan-tilt frame (rotation about 5.3 degrees yaw, 6.7 degrees pitch, 0.06 roll) and each camera's own boresight misalignment (all under 3 degrees).
