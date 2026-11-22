@@ -1,5 +1,5 @@
 """Rover structure positions from ESA's public ExoMars RSP SPICE kernels (ROCC / ESA SPICE Service), in the rover frame, in mm, and above the nominal ground.
-usage (repo root): python sfm/spice/emrsp_geometry.py [--md docs/rover-frame-geometry.md] [--json docs/rover-frame-geometry.json]
+usage (repo root): python scripts/emrsp_geometry.py [--json data/rover-frame.json]
 needs spiceypy (venv).  Downloads (once, to the git-ignored data/lit/emrsp/) fk/emrsp_rm_v014.tf and spk/emrsp_rm_struct_v007.bsp from
 https://spiftp.esac.esa.int/data/SPICE/ExoMarsRSP/kernels/  (dataset citation: ESA SPICE Service, ExoMarsRSP Operational SPICE Kernel Dataset, https://doi.org/10.5270/esa-uvyv4w5).
 Frame: RM_ROVER, +x forward, +y LEFT, +z up; origin on the body mid-plane, 252.5 mm aft of the plane through the front body HDRM bolt axes and 30 mm below the plane of the rover body base (FK section 'RM Rover Frames').
