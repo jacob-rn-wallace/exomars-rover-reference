@@ -534,6 +534,26 @@
   },
   {
    "section": "Deck items",
+   "dimension": "CLUPI calibration target (the small multi-patch colour chart on a bracket under the drill box)",
+   "mm_1to1": "25 x 25 mm surface, nine 6.5 mm glass colour patches, shadow post 4.1 mm high, mass 4.5 g, on the right bogie bracket below the drill box",
+   "mm_1to4": "6.25 x 6.25; patches 1.6; post 1.0",
+   "source": "Josset et al. 2017 (Josset et al. 2017) section 4.7",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "CLUPI instrument",
+   "mm_1to1": "allocated volume 170 x 80 x 100 mm, mass 932 g, mounted on the drill box with a flat mirror on the stowed-drill bracket and a concave mirror near the front end of the box",
+   "mm_1to4": "42.5 x 20 x 25",
+   "source": "Josset et al. 2017 (Josset et al. 2017)",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Deck items",
    "dimension": "RIM (rover inspection mirror)",
    "mm_1to1": "50 mm sphere, on the left bogie bracket",
    "mm_1to4": "12.5",
