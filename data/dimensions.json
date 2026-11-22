@@ -484,6 +484,16 @@
   },
   {
    "section": "Deck items",
+   "dimension": "PCT position on the fixed panel (array frame)",
+   "mm_1to1": "plate centre 537 to the rover right of the array centre line, 217 ahead of the fixed panel's main front edge (53 behind the front-right end block's front edge)",
+   "mm_1to4": "134, 54",
+   "source": "flight-array photograph (Riva Fig. 6): the PCT's three mounting holes, lattice-rectified at R = 80.7; hole spacings 53.6 / 58.4 / 57.4 against 58.0",
+   "status": "derived",
+   "uncertainty": "about 15",
+   "tier": "B"
+  },
+  {
+   "section": "Deck items",
    "dimension": "PCT orientation",
    "mm_1to1": "drawing +x = rover right, +y = rear (large patches face the rear); 0 degrees, within about 10",
    "mm_1to4": "",

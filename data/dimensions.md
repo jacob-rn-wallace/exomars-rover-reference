@@ -87,6 +87,7 @@ Unofficial reference, not affiliated with ESA. See `../docs/TIERS.md` for the st
 | PCT plate | 67 x 76, patches 18 and 30 diameter | 17 x 19 | ESA drawing via PCOT (MIT), Coates 2017; Fig. 11 CAD agrees to 0.3 mm | stated | about 0.5 | A |
 | PCT plate thickness | 2 (photo) or about 5 (Fig. 11 edge) | 0.5 to 1.3 | photo; CAD render | estimated, conflicting | 3 | C |
 | PCT position on the deck | teal patch centre u 588, v -538, H 938 (u right, v rear, H up) |  | triangulated from 18 video frames | derived | about 10 to 20 relative to our photogrammetry frame; the frame itself is good to about 2.5 % | B |
+| PCT position on the fixed panel (array frame) | plate centre 537 to the rover right of the array centre line, 217 ahead of the fixed panel's main front edge (53 behind the front-right end block's front edge) | 134, 54 | flight-array photograph (Riva Fig. 6): the PCT's three mounting holes, lattice-rectified at R = 80.7; hole spacings 53.6 / 58.4 / 57.4 against 58.0 | derived | about 15 | B |
 | PCT orientation | drawing +x = rover right, +y = rear (large patches face the rear); 0 degrees, within about 10 |  | 360 video, checked in the 2409 overhead | derived | about 10 degrees | B |
 | PCT shadow posts | stems 4.5, balls 9, 15 high | 1.1, 2.3, 3.8 | one photo | measured | about 2 | C |
 | FidM (fiducial marker) shape | 32 x 16 x 6.5, waisted, 9 to 10 mm bare disc | 8 x 4 x 1.6 | stated envelope (Coates et al. 2017); shape from the Fig. 11 inset | stated + derived | about 10 percent on the shape | C |
