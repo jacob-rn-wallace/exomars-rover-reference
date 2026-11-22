@@ -494,6 +494,26 @@
   },
   {
    "section": "Deck items",
+   "dimension": "Mast axis in the array frame",
+   "mm_1to1": "about 150 mm behind the fixed panel's main front edge (v -152 +- 25), within about 40 mm of the array centre line (u +25 +- 25)",
+   "mm_1to4": "",
+   "source": "ring of bolts at the foot of the mast sleeve (horizontal circle, circle-fit rms 1.7 mm) in a ground-test-model photograph, registered on the cell lattice and corrected for the ring's height above the cell plane (70 +- 15 mm); ESA SPICE kernels (K1) puts the mast on the centreline",
+   "status": "derived",
+   "uncertainty": "about 25",
+   "tier": "B"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "PCT plate centre in the rover frame (x forward, y left)",
+   "mm_1to1": "x +573, y -537",
+   "mm_1to4": "",
+   "source": "array-frame position from the flight-array photograph, anchored to the ESA SPICE kernels (K1) rover frame through the mast axis above; independent check: the two ESA SPICE kernels (K1) hinge rows (x -420, -700) fall within 30 mm of the hinge rows seen in the flight photograph; PCT about 369 +- 35 ahead of and 512 +- 35 to the right of the mast axis (video and render gave 345 to 382 ahead, 581 to 643 right)",
+   "status": "derived",
+   "uncertainty": "about 40 (x), 20 (y)",
+   "tier": "B"
+  },
+  {
+   "section": "Deck items",
    "dimension": "PCT orientation",
    "mm_1to1": "drawing +x = rover right, +y = rear (large patches face the rear); 0 degrees, within about 10",
    "mm_1to4": "",
