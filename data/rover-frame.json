@@ -1,0 +1,343 @@
+{
+ "source": "ESA SPICE Service, ExoMarsRSP Operational SPICE Kernel Dataset, https://doi.org/10.5270/esa-uvyv4w5; fk emrsp_rm_v014.tf, spk emrsp_rm_struct_v007.bsp",
+ "frame": "RM_ROVER (+x fwd, +y left, +z up), mm",
+ "structures": [
+  {
+   "group": "locomotion",
+   "name": "wheel centre left front",
+   "key": "RM_WHEEL_LF",
+   "x": 705.0,
+   "y": 720.0,
+   "z": -157.5,
+   "above_ground": 142.5,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "left middle",
+   "key": "RM_WHEEL_LM",
+   "x": 55.0,
+   "y": 720.0,
+   "z": -157.5,
+   "above_ground": 142.5,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "left rear",
+   "key": "RM_WHEEL_LR",
+   "x": -749.6,
+   "y": 720.0,
+   "z": -157.5,
+   "above_ground": 142.5,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "right front",
+   "key": "RM_WHEEL_RF",
+   "x": 705.0,
+   "y": -720.0,
+   "z": -157.5,
+   "above_ground": 142.5,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "right middle",
+   "key": "RM_WHEEL_RM",
+   "x": 55.0,
+   "y": -720.0,
+   "z": -157.5,
+   "above_ground": 142.5,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "right rear",
+   "key": "RM_WHEEL_RR",
+   "x": -749.6,
+   "y": -720.0,
+   "z": -157.5,
+   "above_ground": 142.5,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "steering axis left front",
+   "key": "RM_STEER_LF",
+   "x": 705.0,
+   "y": 720.0,
+   "z": 110.8,
+   "above_ground": 410.8,
+   "note": "steering axis position; y equals the wheel y (the axis lies in the wheel mid-plane)"
+  },
+  {
+   "group": "locomotion",
+   "name": "left middle",
+   "key": "RM_STEER_LM",
+   "x": 55.0,
+   "y": 720.0,
+   "z": 110.8,
+   "above_ground": 410.8,
+   "note": "steering axis position; y equals the wheel y (the axis lies in the wheel mid-plane)"
+  },
+  {
+   "group": "locomotion",
+   "name": "left rear",
+   "key": "RM_STEER_LR",
+   "x": -749.6,
+   "y": 720.0,
+   "z": 196.7,
+   "above_ground": 496.7,
+   "note": "steering axis position; y equals the wheel y (the axis lies in the wheel mid-plane)"
+  },
+  {
+   "group": "locomotion",
+   "name": "left bogie pivot",
+   "key": "RM_BOGIE_LF",
+   "x": 380.0,
+   "y": 517.1,
+   "z": 60.0,
+   "above_ground": 360.0,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "right bogie pivot",
+   "key": "RM_BOGIE_RF",
+   "x": 380.0,
+   "y": -517.1,
+   "z": 60.0,
+   "above_ground": 360.0,
+   "note": ""
+  },
+  {
+   "group": "locomotion",
+   "name": "rear bogie pivot",
+   "key": "RM_BOGIE_MR",
+   "x": -517.4,
+   "y": 0.0,
+   "z": 130.0,
+   "above_ground": 430.0,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "mast base (deployment hinge frame origin)",
+   "key": "RM_MAST",
+   "x": 204.0,
+   "y": 0.0,
+   "z": 642.9,
+   "above_ground": 942.9,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "pan-tilt axes intersection (top of mast)",
+   "key": "RM_PTR",
+   "x": 204.0,
+   "y": 0.0,
+   "z": 1540.4,
+   "above_ground": 1840.4,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "NavCam left",
+   "key": "RM_NAVCAM_L",
+   "x": 320.1,
+   "y": 77.0,
+   "z": 1751.5,
+   "above_ground": 2051.5,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "NavCam right",
+   "key": "RM_NAVCAM_R",
+   "x": 320.1,
+   "y": -77.0,
+   "z": 1751.5,
+   "above_ground": 2051.5,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "PanCam frame origin",
+   "key": "RM_PANCAM",
+   "x": 207.7,
+   "y": 5.1,
+   "z": 1766.0,
+   "above_ground": 2066.0,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "WAC left",
+   "key": "RM_PANCAM_WAC_L",
+   "x": 185.0,
+   "y": 251.7,
+   "z": 1766.3,
+   "above_ground": 2066.3,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "WAC right",
+   "key": "RM_PANCAM_WAC_R",
+   "x": 230.4,
+   "y": -241.5,
+   "z": 1765.8,
+   "above_ground": 2065.8,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "HRC",
+   "key": "RM_PANCAM_HRC",
+   "x": 348.9,
+   "y": -143.1,
+   "z": 1745.2,
+   "above_ground": 2045.2,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "ISEM (Enfys replaces it)",
+   "key": "RM_ISEM",
+   "x": 314.0,
+   "y": -154.0,
+   "z": 1666.9,
+   "above_ground": 1966.9,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "LocCam left",
+   "key": "RM_LOCCAM_L",
+   "x": 358.6,
+   "y": 77.0,
+   "z": 642.4,
+   "above_ground": 942.4,
+   "note": ""
+  },
+  {
+   "group": "mast and head",
+   "name": "LocCam right",
+   "key": "RM_LOCCAM_R",
+   "x": 358.6,
+   "y": -77.0,
+   "z": 642.4,
+   "above_ground": 942.4,
+   "note": ""
+  },
+  {
+   "group": "body",
+   "name": "drill positioner pivot",
+   "key": "RM_DRILL_POS_FIX",
+   "x": 340.0,
+   "y": 100.0,
+   "z": 393.8,
+   "above_ground": 693.8,
+   "note": ""
+  },
+  {
+   "group": "body",
+   "name": "ALD core sample transfer mechanism",
+   "key": "RM_ALD_CSTM_FIX",
+   "x": 265.7,
+   "y": -233.9,
+   "z": 420.5,
+   "above_ground": 720.5,
+   "note": ""
+  },
+  {
+   "group": "body",
+   "name": "ALD PSDDS",
+   "key": "RM_ALD_PSDDS",
+   "x": 114.0,
+   "y": -173.0,
+   "z": 200.6,
+   "above_ground": 500.6,
+   "note": ""
+  },
+  {
+   "group": "body",
+   "name": "ALD PSHS",
+   "key": "RM_ALD_PSHS",
+   "x": 78.0,
+   "y": 30.0,
+   "z": 188.9,
+   "above_ground": 488.9,
+   "note": ""
+  },
+  {
+   "group": "body",
+   "name": "WISDOM base (middle of the two antenna mounts)",
+   "key": "RM_WISDOM",
+   "x": -649.9,
+   "y": 0.0,
+   "z": 260.4,
+   "above_ground": 560.4,
+   "note": ""
+  },
+  {
+   "group": "solar array",
+   "name": "left primary panel, first hinge",
+   "key": "RM_SA1_PRI",
+   "x": -420.0,
+   "y": 800.0,
+   "z": 540.0,
+   "above_ground": 840.0,
+   "note": "hinge centre of the hinge nearest the front (primary) or nearest the body (secondary); array deployed (angle 0)"
+  },
+  {
+   "group": "solar array",
+   "name": "left secondary panel, first hinge",
+   "key": "RM_SA1_SEC",
+   "x": -700.0,
+   "y": 800.0,
+   "z": 540.0,
+   "above_ground": 840.0,
+   "note": "hinge centre of the hinge nearest the front (primary) or nearest the body (secondary); array deployed (angle 0)"
+  },
+  {
+   "group": "solar array",
+   "name": "right primary panel, first hinge",
+   "key": "RM_SA2_PRI",
+   "x": -420.0,
+   "y": -800.0,
+   "z": 540.0,
+   "above_ground": 840.0,
+   "note": "hinge centre of the hinge nearest the front (primary) or nearest the body (secondary); array deployed (angle 0)"
+  },
+  {
+   "group": "solar array",
+   "name": "right secondary panel, first hinge",
+   "key": "RM_SA2_SEC",
+   "x": -700.0,
+   "y": -800.0,
+   "z": 540.0,
+   "above_ground": 840.0,
+   "note": "hinge centre of the hinge nearest the front (primary) or nearest the body (secondary); array deployed (angle 0)"
+  }
+ ],
+ "derived": {
+  "ground_plane_z": -300.0,
+  "wheel_centre_z": -157.5,
+  "track_mm": 1440.0,
+  "track_rear_mm": 1440.0,
+  "wheelbase_front_rear_mm": 1454.6,
+  "spacing_front_middle_mm": 650.0,
+  "spacing_middle_rear_mm": 804.6,
+  "mast_ahead_of_middle_axle_mm": 149.0,
+  "navcam_baseline_mm": 154.0,
+  "wac_baseline_mm": 495.2,
+  "loccam_baseline_mm": 154.0,
+  "body_base_plane_z": 30.0,
+  "body_base_above_ground_mm": 330.0,
+  "sa_primary_hinge_half_width_mm": 800.0,
+  "half_span_check_mm": 1315.0
+ }
+}

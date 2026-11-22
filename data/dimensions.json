@@ -1,0 +1,535 @@
+{
+ "note": "Unofficial. Values at 1:1 in mm unless stated. status: stated (printed in a source), derived (our measurement or arithmetic), inferred, unknown. tier: A anchor, B fine for an interpretation, C rough, D unknown.",
+ "rows": [
+  {
+   "section": "Overall envelope",
+   "dimension": "Mast top above ground",
+   "mm_1to1": "2049",
+   "mm_1to4": "512",
+   "source": "Vago et al. 2017, Fig. 4",
+   "status": "stated",
+   "uncertainty": "about 0 (label); ESA SPICE kernels (K1): the NavCam centres are 2051.5 above the nominal ground, so the label marks the camera level (WACs 2066, HRC 2045); nominal ground = wheel centre - 142.5",
+   "tier": "A"
+  },
+  {
+   "section": "Overall envelope",
+   "dimension": "Deployed span, panel tip to tip",
+   "mm_1to1": "2632",
+   "mm_1to4": "658",
+   "source": "Vago et al. 2017, Fig. 4",
+   "status": "stated",
+   "uncertainty": "about 0; photogrammetry gave 2650 (+0.7 %)",
+   "tier": "A"
+  },
+  {
+   "section": "Overall envelope",
+   "dimension": "Stowed envelope",
+   "mm_1to1": "1500 x 1410 x 660",
+   "mm_1to4": "375 x 353 x 165",
+   "source": "Whetsel and Salvo 2011 (NASA slide 13)",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Overall envelope",
+   "dimension": "Mast head width",
+   "mm_1to1": "500",
+   "mm_1to4": "125",
+   "source": "Vago et al. 2017, Fig. 4; equals the WAC stereo baseline in Coates et al. 2017",
+   "status": "stated (that the head is the camera spacing is our inference)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Overall envelope",
+   "dimension": "Mass; payload",
+   "mm_1to1": "310 kg; 26 kg",
+   "mm_1to4": "n/a",
+   "source": "Vago 2017",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Overall envelope",
+   "dimension": "Mast height above the deck",
+   "mm_1to1": "about 1070",
+   "mm_1to4": "268",
+   "source": "Vago et al. 2017, Fig. 4 pixel reading",
+   "status": "derived",
+   "uncertainty": "about 40",
+   "tier": "B"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Wheel diameter, without grousers",
+   "mm_1to1": "285",
+   "mm_1to4": "71",
+   "source": "Vago 2017 text",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Wheel width",
+   "mm_1to1": "120",
+   "mm_1to4": "30",
+   "source": "Vago 2017 text; Vago et al. 2017, Fig. 4",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Wheel overall height with grousers",
+   "mm_1to1": "310",
+   "mm_1to4": "78",
+   "source": "Vago et al. 2017, Fig. 4 label (what it spans is our reading)",
+   "status": "stated (reading ours)",
+   "uncertainty": "about 5",
+   "tier": "B"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Clear gap between wheel inner faces",
+   "mm_1to1": "1320",
+   "mm_1to4": "330",
+   "source": "Vago et al. 2017, Fig. 4",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Track, wheel centre to centre",
+   "mm_1to1": "1440.0",
+   "mm_1to4": "360",
+   "source": "ESA SPICE structure kernel (K1) (wheel y = +-720.0 front, middle and rear); Vago et al. 2017, Fig. 4 labels (1320 + 120) agree",
+   "status": "stated (ESA/ROCC operational geometry from TAS-I documentation)",
+   "uncertainty": "about 0; the photogrammetry gave 1462 (+1.5 %)",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Track, outer faces",
+   "mm_1to1": "1560",
+   "mm_1to4": "390",
+   "source": "Vago et al. 2017, Fig. 4 (1320 + 240)",
+   "status": "derived from labels",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Wheelbase, rear to front wheel centres",
+   "mm_1to1": "1454.6",
+   "mm_1to4": "364",
+   "source": "ESA SPICE kernels (K1) (wheel x 705.0, 55.0, -749.6); the photogrammetric circle fits gave 1455",
+   "status": "stated (ESA/ROCC operational geometry)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Rear-to-middle / middle-to-front spacing",
+   "mm_1to1": "804.6 / 650.0",
+   "mm_1to4": "201 / 162.5",
+   "source": "ESA SPICE kernels (K1); the photogrammetry gave 807 / 648",
+   "status": "stated (ESA/ROCC operational geometry)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Body underside width",
+   "mm_1to1": "845",
+   "mm_1to4": "211",
+   "source": "Vago et al. 2017, Fig. 4 (what the extension lines span is our reading)",
+   "status": "derived",
+   "uncertainty": "about 20",
+   "tier": "B"
+  },
+  {
+   "section": "Locomotion",
+   "dimension": "Bogie, steering and axle shapes and sizes",
+   "mm_1to1": "unknown",
+   "mm_1to4": "",
+   "source": "",
+   "status": "unverified",
+   "uncertainty": "unknown",
+   "tier": "D"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Panel plane height above ground",
+   "mm_1to1": "about 910 (photogrammetry 850 to 950; Vago et al. 2017, Fig. 4 pixels 870 to 935)",
+   "mm_1to4": "228",
+   "source": "photogrammetry histogram; Vago et al. 2017, Fig. 4",
+   "status": "derived",
+   "uncertainty": "about 40",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Solar-array hinge positions (primary front hinge, secondary hinge)",
+   "mm_1to1": "primary x -420, y +-800; secondary x -700, y +-800; both 840 above ground",
+   "mm_1to4": "",
+   "source": "ESA SPICE kernels (K1) (RM_SA*_PRI/SEC); primary hinge y + 515 panel width = 1315 half-span, consistent with the stated 2632 span",
+   "status": "stated (ESA/ROCC)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Deployable panel width (across the rover)",
+   "mm_1to1": "about 515 (518 right wing, 513 left; the earlier photogrammetry figure of 620 most likely included the gap to the central panel)",
+   "mm_1to4": "129",
+   "source": "studio plan-view render (solar-cell lattice as the ruler), full 2D rectification on the cell lattice",
+   "status": "derived",
+   "uncertainty": "about 10",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Deployable panel lengths (fore-aft)",
+   "mm_1to1": "about 882 (all four panels)",
+   "mm_1to4": "221",
+   "source": "studio plan-view render (solar-cell lattice as the ruler) ; photogrammetry had 880 to 920",
+   "status": "derived",
+   "uncertainty": "about 12",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Hinge gap between a side's two panels (board to board)",
+   "mm_1to1": "about 198 (both wings)",
+   "mm_1to4": "50",
+   "source": "studio plan-view render (solar-cell lattice as the ruler)",
+   "status": "derived",
+   "uncertainty": "about 15",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Wing zone fore-aft, each side",
+   "mm_1to1": "about 1964",
+   "mm_1to4": "491",
+   "source": "studio plan-view render (solar-cell lattice as the ruler); photogrammetry had 1940 to 1980",
+   "status": "derived",
+   "uncertainty": "about 20",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Fixed (central) panel, bounding box across x fore-aft",
+   "mm_1to1": "about 1355 x 1058 (stepped outline; main block alone 1138 across)",
+   "mm_1to4": "339 x 265",
+   "source": "studio plan-view render (solar-cell lattice as the ruler) ; photogrammetry had 1300 x 1090",
+   "status": "derived",
+   "uncertainty": "about 20",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Cell outline",
+   "mm_1to1": "40 x 80 (chamfered corners)",
+   "mm_1to4": "10 x 20",
+   "source": "AZUR 3G30C datasheet (probably the rover's cell, not confirmed)",
+   "status": "stated for the datasheet cell",
+   "uncertainty": "about 0.1",
+   "tier": "B"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Cell pitch along a string",
+   "mm_1to1": "40.6 to 40.8",
+   "mm_1to4": "10.2",
+   "source": "measured on the central panel",
+   "status": "derived",
+   "uncertainty": "about 0.2",
+   "tier": "A"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Cell counts",
+   "mm_1to1": "18 per string; 720 total (288 central, 108 per deployable panel)",
+   "mm_1to4": "n/a",
+   "source": "Ferrando et al. 2017, Astrium SAMM summary report 2005",
+   "status": "stated",
+   "uncertainty": "0",
+   "tier": "A"
+  },
+  {
+   "section": "Solar array",
+   "dimension": "Cell area",
+   "mm_1to1": "2.17 m2 (0.87 central, 0.33 per deployable panel)",
+   "mm_1to4": "n/a",
+   "source": "derived from the counts and the datasheet cell",
+   "status": "derived",
+   "uncertainty": "small",
+   "tier": "B"
+  },
+  {
+   "section": "Body and rear",
+   "dimension": "Body (warm box) height",
+   "mm_1to1": "about 580",
+   "mm_1to4": "145",
+   "source": "Vago et al. 2017, Fig. 4 pixel reading",
+   "status": "derived",
+   "uncertainty": "about 40",
+   "tier": "C"
+  },
+  {
+   "section": "Body and rear",
+   "dimension": "Body plan size (across x fore-aft)",
+   "mm_1to1": "not measured by ESA SPICE kernels (K1) (it gives reference points, not outlines); the stowed envelope (1500 x 1410) is the nearest bound",
+   "mm_1to4": "",
+   "source": "unresolved; TAS ground-test-model photos (tier C, ): the white front panels span about 894 across, the gold side box is about 1065 fore-aft (+- 60), after correcting the side plane for the box's lateral protrusion of about 120 mm read in GTM1; it matches the 1058 fixed panel",
+   "status": "unknown",
+   "uncertainty": "large",
+   "tier": "D"
+  },
+  {
+   "section": "Body and rear",
+   "dimension": "WISDOM antenna",
+   "mm_1to1": "410 x 200 x 180",
+   "mm_1to4": "102 x 50 x 45",
+   "source": "Herve et al. 2020, Benedix et al. 2013, Benedix et al. 2024 (as built 410 x 199 x 178)",
+   "status": "stated",
+   "uncertainty": "about 0; the photogrammetry agrees to a few percent",
+   "tier": "A"
+  },
+  {
+   "section": "Body and rear",
+   "dimension": "WISDOM antenna height above ground (lower edge)",
+   "mm_1to1": "380",
+   "mm_1to4": "95",
+   "source": "Herve et al. 2020, Benedix et al. 2024",
+   "status": "stated",
+   "uncertainty": "about 10",
+   "tier": "A"
+  },
+  {
+   "section": "Body and rear",
+   "dimension": "WISDOM tilt back",
+   "mm_1to1": "8 degrees (antenna boresight against the base frame)",
+   "mm_1to4": "",
+   "source": "ESA SPICE kernels (K1) frames kernel (the 2011 design paper Ciarletti et al. 2011 said 7)",
+   "status": "stated (ESA/ROCC)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Body and rear",
+   "dimension": "Which end is the front",
+   "mm_1to1": "the drill end",
+   "mm_1to4": "",
+   "source": "Ciarletti et al. 2011, Plettemeier et al. 2013 (EGU), ESA rear-view render caption, Vago et al. 2017, Fig. 4 (four sources)",
+   "status": "stated",
+   "uncertainty": "none",
+   "tier": "A"
+  },
+  {
+   "section": "Mast head and PanCam",
+   "dimension": "Head envelope, camera heights",
+   "mm_1to1": "unknown",
+   "mm_1to4": "",
+   "source": "Coates et al. 2017 gives no envelope; the photogrammetry cannot see the head",
+   "status": "unknown",
+   "uncertainty": "",
+   "tier": "D"
+  },
+  {
+   "section": "Mast head and PanCam",
+   "dimension": "WAC stereo baseline",
+   "mm_1to1": "495.2 (calibrated; 500 is the nominal in Coates et al. 2017 and Vago et al. 2017, Fig. 4)",
+   "mm_1to4": "124",
+   "source": "ESA SPICE kernels (K1) (WAC offsets +-247.6 from the PanCam frame, from calibration data) and Coates et al. 2017",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Mast head and PanCam",
+   "dimension": "NavCam baseline / LocCam baseline / camera heights above ground",
+   "mm_1to1": "154 / 154 / NavCam 2051.5, WAC 2066, HRC 2045, ISEM 1967, LocCam 942.4",
+   "mm_1to4": "",
+   "source": "ESA SPICE kernels (K1)",
+   "status": "stated (ESA/ROCC)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Mast head and PanCam",
+   "dimension": "Mast pole diameter",
+   "mm_1to1": "about 115 (photogrammetry core, low confidence)",
+   "mm_1to4": "29",
+   "source": "photogrammetry",
+   "status": "derived",
+   "uncertainty": "about 30",
+   "tier": "D"
+  },
+  {
+   "section": "Drill",
+   "dimension": "Drill tool length",
+   "mm_1to1": "about 700",
+   "mm_1to4": "175",
+   "source": "Vago 2017",
+   "status": "stated (approximate)",
+   "uncertainty": "about 50",
+   "tier": "B"
+  },
+  {
+   "section": "Drill",
+   "dimension": "Extension rod length",
+   "mm_1to1": "500 (three rods)",
+   "mm_1to4": "125",
+   "source": "Vago 2017",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Drill",
+   "dimension": "Drill tool diameter",
+   "mm_1to1": "20",
+   "mm_1to4": "5",
+   "source": "Altieri 2023",
+   "status": "stated",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Drill",
+   "dimension": "Drill box size and pose",
+   "mm_1to1": "unknown",
+   "mm_1to4": "",
+   "source": "the box lies across the front when travelling, vertical when drilling",
+   "status": "unverified",
+   "uncertainty": "large",
+   "tier": "D"
+  },
+  {
+   "section": "Drill",
+   "dimension": "Drill positioner pivot",
+   "mm_1to1": "x +340.0, y +100.0 (100 mm left of the centreline), 693.8 above ground",
+   "mm_1to4": "",
+   "source": "ESA SPICE kernels (K1) (RM_DRILL_POS_FIX)",
+   "status": "stated (ESA/ROCC)",
+   "uncertainty": "about 0",
+   "tier": "A"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "PCT plate",
+   "mm_1to1": "67 x 76, patches 18 and 30 diameter",
+   "mm_1to4": "17 x 19",
+   "source": "ESA drawing via PCOT (MIT), Coates 2017; Fig. 11 CAD agrees to 0.3 mm",
+   "status": "stated",
+   "uncertainty": "about 0.5",
+   "tier": "A"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "PCT plate thickness",
+   "mm_1to1": "2 (photo) or about 5 (Fig. 11 edge)",
+   "mm_1to4": "0.5 to 1.3",
+   "source": "photo; CAD render",
+   "status": "estimated, conflicting",
+   "uncertainty": "3",
+   "tier": "C"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "PCT position on the deck",
+   "mm_1to1": "teal patch centre u 588, v -538, H 938 (u right, v rear, H up)",
+   "mm_1to4": "",
+   "source": "triangulated from 18 video frames",
+   "status": "derived",
+   "uncertainty": "about 10 to 20 relative to our photogrammetry frame; the frame itself is good to about 2.5 %",
+   "tier": "B"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "PCT orientation",
+   "mm_1to1": "drawing +x = rover right, +y = rear (large patches face the rear); 0 degrees, within about 10",
+   "mm_1to4": "",
+   "source": "360 video, checked in the 2409 overhead",
+   "status": "derived",
+   "uncertainty": "about 10 degrees",
+   "tier": "B"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "PCT shadow posts",
+   "mm_1to1": "stems 4.5, balls 9, 15 high",
+   "mm_1to4": "1.1, 2.3, 3.8",
+   "source": "one photo",
+   "status": "measured",
+   "uncertainty": "about 2",
+   "tier": "C"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "FidM (fiducial marker) shape",
+   "mm_1to1": "32 x 16 x 6.5, waisted, 9 to 10 mm bare disc",
+   "mm_1to4": "8 x 4 x 1.6",
+   "source": "stated envelope (Coates et al. 2017); shape from the Fig. 11 inset",
+   "status": "stated + derived",
+   "uncertainty": "about 10 percent on the shape",
+   "tier": "C"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "FidM positions",
+   "mm_1to1": "unknown",
+   "mm_1to4": "",
+   "source": "arrows in Fig. 11 only (left-rear corner area, front tongue beside the PCT, right-rear bracket)",
+   "status": "unknown",
+   "uncertainty": "about 100 or worse",
+   "tier": "D"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "Two T-shaped deck posts",
+   "mm_1to1": "identified 2026-11-21: the two UHF monopole antennas (ESA's current-design render labels a T-post 'Communication antennas'; the ESA caption of the rear-view render, ESA rear-view render caption, says 'Two UHF monopole antennas are used to communicate with Mars orbiters'); size still unknown",
+   "mm_1to4": "",
+   "source": "ESA render label and caption (identity inferred from the label pointing at the post)",
+   "status": "stated (identity), size unknown",
+   "uncertainty": "",
+   "tier": "C for identity, D for size"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "Small silver cones",
+   "mm_1to1": "unidentified (candidates: the dome caps of the suspension joints; not checked)",
+   "mm_1to4": "",
+   "source": "video, Fig. 11",
+   "status": "unknown",
+   "uncertainty": "",
+   "tier": "D"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "RIM (rover inspection mirror)",
+   "mm_1to1": "50 mm sphere, on the left bogie bracket",
+   "mm_1to4": "12.5",
+   "source": "Coates et al. 2017",
+   "status": "stated",
+   "uncertainty": "0",
+   "tier": "A"
+  },
+  {
+   "section": "Deck items",
+   "dimension": "Small separate multi-disc target on the lower body",
+   "mm_1to1": "about 15 across, unidentified",
+   "mm_1to4": "",
+   "source": "animation frames",
+   "status": "unknown",
+   "uncertainty": "",
+   "tier": "D"
+  }
+ ]
+}
