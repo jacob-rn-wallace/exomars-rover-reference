@@ -189,8 +189,8 @@
    "mm_1to4": "129",
    "source": "studio plan-view render (solar-cell lattice as the ruler), full 2D rectification on the cell lattice",
    "status": "derived",
-   "uncertainty": "about 10",
-   "tier": "B"
+   "uncertainty": "about 10; CONFLICT 2026-11-22: a face-on photograph of the flight array (Riva et al. 2019, Fig. 6) gives about 489 to 496 across (6.1 cell pitches), 4 to 5 percent less (not yet reconciled)",
+   "tier": "C"
   },
   {
    "section": "Solar array",
@@ -229,8 +229,8 @@
    "mm_1to4": "339 x 265",
    "source": "studio plan-view render (solar-cell lattice as the ruler) ; photogrammetry had 1300 x 1090",
    "status": "derived",
-   "uncertainty": "about 20",
-   "tier": "B"
+   "uncertainty": "about 20; CONFLICT 2026-11-22: a face-on photograph of the flight array gives a rear-lobe to front-edge fore-aft of about 1117 (1366 with the front-right end block) and an across of up to about 1390, about 5 percent more fore-aft (not yet reconciled)",
+   "tier": "C"
   },
   {
    "section": "Solar array",
