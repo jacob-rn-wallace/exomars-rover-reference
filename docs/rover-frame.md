@@ -1,3 +1,5 @@
+<!-- GENERATED from the private repository (public/docs/rover-frame.md); do not edit by hand -->
+
 # Rover structure geometry from ESA's SPICE kernels
 
 **What this is.** ESA's SPICE Service publishes the operational kernel set for the ExoMars RSP rover (public, ESA/ROCC/ALTEC), including a structure kernel with the positions of the wheels, steering axes, bogie pivots, mast, pan-tilt unit, every PanCam and NavCam camera, LocCam, drill positioner, WISDOM, solar-array hinges and more, all in the rover's own frame. Source: ESA SPICE Service, *ExoMarsRSP Operational SPICE Kernel Dataset*, https://doi.org/10.5270/esa-uvyv4w5, files `fk/emrsp_rm_v014.tf` (frames, Feb 2023) and `spk/emrsp_rm_struct_v007.bsp` (structure positions, Jul 2022), https://spiftp.esac.esa.int/data/SPICE/ExoMarsRSP/kernels/. The kernels are not copied into this repository; `scripts/emrsp_geometry.py` downloads them from ESA and regenerates the tables and `data/rover-frame.json`.

@@ -1,4 +1,5 @@
 {
+ "generated": "by the private repository export; do not edit by hand",
  "note": "Unofficial. Values at 1:1 in mm unless stated. status: stated (printed in a source), derived (our measurement or arithmetic), inferred, unknown. tier: A anchor, B fine for an interpretation, C rough, D unknown.",
  "rows": [
   {
@@ -404,12 +405,12 @@
   {
    "section": "Drill",
    "dimension": "Drill box size and pose",
-   "mm_1to1": "unknown",
+   "mm_1to1": "stowed: axis along y at x +480.9, z +98.2 (398 above ground), left end (tip) at y +442.9; vertical when drilling; size about 849 x 292 x 203 (ESA visualisation mesh, provenance unknown); the GTM front-face photo reads length at least 825, front face 183 high, top face 208 deep",
    "mm_1to4": "",
-   "source": "the box lies across the front when travelling, vertical when drilling",
-   "status": "unverified",
-   "uncertainty": "large",
-   "tier": "D"
+   "source": "ESA SPICE kernels (K1) (pose, from the drill positioner frames); the box size from the ESA mesh and the GTM photo only",
+   "status": "pose stated (ESA/ROCC); size derived/unverified",
+   "uncertainty": "pose about 0; size about 5 percent",
+   "tier": "pose A; size C"
   },
   {
    "section": "Drill",
