@@ -19,4 +19,6 @@ The goal is accuracy: every number carries where it comes from, how it was obtai
 Early. The skeleton (reference points) is solid. Outlines and sizes of the body, the drill box and the housings are not known to better than a few percent, and several are still unknown (tier D in the table).
 
 ## Licence
-Not chosen yet. Until one is added, all rights in the original content of this repository are reserved by the author; the sources keep their own licences (see `NOTICE.md`).
+- **Data and documentation** (everything under `data/` and `docs/`, and the text files in the root): [Creative Commons Attribution 4.0 International](LICENSE-CC-BY-4.0.txt). Credit 'exomars-rover-reference (unofficial)' and, where you use the geometry, the ESA SPICE Service dataset (doi 10.5270/esa-uvyv4w5).
+- **Code** (`scripts/`): [MIT](LICENSE-MIT.txt).
+- The underlying sources keep their own licences (see `NOTICE.md`); this repository only states facts taken from them.
