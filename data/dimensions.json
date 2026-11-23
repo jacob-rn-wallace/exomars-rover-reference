@@ -437,7 +437,7 @@
    "dimension": "Drill box size and pose",
    "mm_1to1": "stowed: axis along y at x +480.9, z +98.2 (398 above ground), left end (tip) at y +442.9; vertical when drilling; size about 849 x 292 x 203 (ESA visualisation mesh, provenance unknown); the GTM front-face photo reads length at least 825, front face 183 high, top face 208 deep; CLUPI paper Figs. 8a and 12a (CAD views, drawn to ESA SPICE kernels (K1) scale) read the yellow box body 177 +- 6 high (cross-section seen along the rover x axis) and about 818 +- 25 long",
    "mm_1to4": "",
-   "source": "ESA SPICE kernels (K1) (pose, from the drill positioner frames); the box size from the ESA mesh and the GTM photo only",
+   "source": "ESA SPICE kernels (K1) (pose, from the drill positioner frames)",
    "status": "pose stated (ESA/ROCC); size derived/unverified",
    "uncertainty": "pose about 0; size about 5 percent",
    "tier": "pose A; size C"
