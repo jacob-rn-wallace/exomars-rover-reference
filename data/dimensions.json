@@ -329,7 +329,7 @@
    "mm_1to4": "",
    "source": "GTM1 ground-test-model front photo (ESA animation material), anchored on the ESA SPICE kernels (K1) LocCam pair (ESA SPICE kernels (K1)), shape and screws from ICES-2017-200 (P15); our measurement",
    "status": "derived",
-   "uncertainty": "y: about 15 mm (inner edges), 25 mm (Up outer edge); z about 30 mm; the fit residuals are 2 to 4 mm",
+   "uncertainty": "y: about 15 mm (inner edges), 25 mm (Up outer edge); z about 30 mm; the fit residuals are 2 to 4 mm; checked against the ESA animation material thermal-vacuum photo (PCT and panel in one frame): PCT 55 +- 13 mm outboard of the panel's outer edge as predicted, and the panel plane at x about +220 +- 110",
    "tier": "C"
   },
   {
