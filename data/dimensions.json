@@ -374,13 +374,13 @@
   },
   {
    "section": "Mast head and PanCam",
-   "dimension": "Head envelope, camera heights",
-   "mm_1to1": "unknown",
+   "dimension": "Head envelope (the white PanCam bar), camera heights",
+   "mm_1to1": "bar length about 590 (+- 40; 1.14 to 1.23 times the WAC baseline in two views), front-face height 80 to 100, depth not measured; camera heights are ESA SPICE kernels (K1)'s (NavCams 2051.5, WACs 2066, HRC 2045, ISEM 1967 above ground)",
    "mm_1to4": "",
-   "source": "Coates et al. 2017 gives no envelope; the photogrammetry cannot see the head",
-   "status": "unknown",
-   "uncertainty": "",
-   "tier": "D"
+   "source": "ESA flight photograph and the ESA flight front-view render, with ESA SPICE kernels (K1) (WAC baseline 495.2) as the ruler; our measurement",
+   "status": "derived (length, height), stated (camera heights, ESA SPICE kernels (K1))",
+   "uncertainty": "length about 7 percent; height about 20 mm",
+   "tier": "C"
   },
   {
    "section": "Mast head and PanCam",
