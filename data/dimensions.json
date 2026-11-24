@@ -295,12 +295,12 @@
   {
    "section": "Body and rear",
    "dimension": "Body plan size (across x fore-aft)",
-   "mm_1to1": "not measured by ESA SPICE kernels (K1) (it gives reference points, not outlines); the stowed envelope (1500 x 1410) is the nearest bound",
+   "mm_1to1": "tub rim (top of the body) about 1090 across x 960 fore-aft from the ESA structural-model photo with the lid off ; ESA SPICE kernels (K1) gives reference points, not outlines; the stowed envelope (1500 x 1410) is the nearest outer bound",
    "mm_1to4": "",
-   "source": "unresolved; TAS ground-test-model photos (tier C, ): the white front panels span about 894 across, the gold side box is about 1065 fore-aft (+- 60), after correcting the side plane for the box's lateral protrusion of about 120 mm read in GTM1; it matches the 1058 fixed panel",
-   "status": "unknown",
-   "uncertainty": "large",
-   "tier": "D"
+   "source": "unresolved; TAS ground-test-model photos (tier C, ): the white front panels span about 894 across, the gold side box is about 1065 fore-aft (+- 60), after correcting the side plane for the box's lateral protrusion of about 120 mm read in GTM1; it matches the 1058 fixed panel; ESA media photo ESA animation material (exomars-rover-structural-model-en-211054), the panels' 894 mm span (GTM1) and the 155 mm foot band as rulers",
+   "status": "derived (photo geometry; the structural model is a flight-design test article)",
+   "uncertainty": "width about 5 percent (1031 to 1143), length about 15 percent (832 to 1138)",
+   "tier": "C"
   },
   {
    "section": "Body and rear",
