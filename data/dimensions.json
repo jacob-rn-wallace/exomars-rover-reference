@@ -314,6 +314,16 @@
   },
   {
    "section": "Body and rear",
+   "dimension": "ALD radiator screw positions (ALD Up 10 screws, ALD Low 7; u from the straight inner edge, v down from the top of the panel; both panels mirror images)",
+   "mm_1to1": "Up: four screws 30 in from the inner edge at v 24, 185, 342, 498 (pitch about 157), six more at (u, v) (274, 30), (442, 55), (179, 262), (329, 263), (328, 401), (222, 498); Low: three screws at u 29, v 30, 186, 343 and one at (39, 500), three more at (213, 54), (131, 181), (131, 401); full table in",
+   "mm_1to4": "",
+   "source": "ICES-2017-200 loop-heat-pipe paper, Fig. 15 (straight-on CAD views, screw circles) and Fig. 9 (isometric, standoffs, corrected with a homography); our measurement",
+   "status": "derived (two drawings that agree)",
+   "uncertainty": "about 4 mm (Up) and 8 mm (Low), judged from the disagreement of the two figures (u within 3 mm, v 2 to 12 mm)",
+   "tier": "B"
+  },
+  {
+   "section": "Body and rear",
    "dimension": "WISDOM antenna",
    "mm_1to1": "410 x 200 x 180",
    "mm_1to4": "102 x 50 x 45",
