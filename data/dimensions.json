@@ -575,12 +575,12 @@
   {
    "section": "Deck items",
    "dimension": "Two T-shaped deck posts",
-   "mm_1to1": "identified 2026-11-21: the two UHF monopole antennas (also labelled 'UHF Antennas' on the deck in the CAD figures of the 2021 ICES loop-heat-pipe paper) (ESA's current-design render labels a T-post 'Communication antennas'; the ESA caption of the rear-view render, ESA rear-view render caption, says 'Two UHF monopole antennas are used to communicate with Mars orbiters'); size still unknown",
+   "mm_1to1": "identified 2026-11-21: the two UHF monopole antennas (also labelled 'UHF Antennas' on the deck in the CAD figures of the 2021 ICES loop-heat-pipe paper) (ESA's current-design render labels a T-post 'Communication antennas'; the ESA caption of the rear-view render, ESA rear-view render caption, says 'Two UHF monopole antennas are used to communicate with Mars orbiters'); size measured 2026-11-24 from the ESA animation frames : stem about 93 mm, bar about 128 mm long and running fore-aft (bar centred about 96 mm above the foot, so about 100 mm tall); both posts are on the rover's right: post 1 beside the PCT at ESA SPICE kernels (K1) x about +377, y about -603 (+- 30), post 2 near the mast at about x +220, y -336 (+- 40, two views; its bar assumed identical)",
    "mm_1to4": "",
-   "source": "ESA render label and caption (identity inferred from the label pointing at the post)",
-   "status": "stated (identity), size unknown",
-   "uncertainty": "",
-   "tier": "C for identity, D for size"
+   "source": "ESA render label and caption (identity inferred from the label pointing at the post); ESA 360 animation frames triangulated with the camera model (our measurement)",
+   "status": "stated (identity); derived (size and position)",
+   "uncertainty": "sizes about 20 mm; post 1 position about 30 mm, post 2 about 40 mm",
+   "tier": "C"
   },
   {
    "section": "Deck items",
