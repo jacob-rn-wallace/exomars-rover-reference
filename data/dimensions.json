@@ -155,7 +155,7 @@
   {
    "section": "Locomotion",
    "dimension": "Bogie, steering and axle shapes and sizes",
-   "mm_1to1": "steering actuator 136 dia x 121 tall with its dome; leg fork plate 114 wide; hub cap 110; side bogie pivot disc 79; walking-joint cylinder 102 dia; bogie arm tube 42 thick (front and middle legs; ESA SPICE kernels (K1) gives the joints; the rear leg, the bogie beam section and fore-aft depths are not measured)",
+   "mm_1to1": "steering actuator 136 dia x 121 tall with its dome; leg fork plate 114 wide; hub cap 110; side bogie pivot disc 79; walking-joint cylinder 102 dia; bogie arm tube 42 thick (front and middle legs; the widths are the fore-aft extents; the rear leg measures the same design but its steering-axis height disagrees with ESA SPICE kernels (K1) by 86 mm; the bogie beam section and the fork's lateral thickness are not measured)",
    "mm_1to4": "",
    "source": "ESA 360 video animation frame 36 (the left side, rectified onto a vertical plane with the camera model; ESA SPICE kernels (K1) as the check)",
    "status": "derived",
@@ -375,7 +375,7 @@
   {
    "section": "Mast head and PanCam",
    "dimension": "Head envelope (the white PanCam bar), camera heights",
-   "mm_1to1": "bar length about 590 (+- 40; 1.14 to 1.23 times the WAC baseline in two views), front-face height 80 to 100, depth not measured; camera heights are ESA SPICE kernels (K1)'s (NavCams 2051.5, WACs 2066, HRC 2045, ISEM 1967 above ground)",
+   "mm_1to1": "bar length about 590 (+- 40; 1.14 to 1.23 times the WAC baseline in two views), depth about 245 (+-30) and end-face height about 72 (+-12) from the animation's end view; camera heights are ESA SPICE kernels (K1)'s (NavCams 2051.5, WACs 2066, HRC 2045, ISEM 1967 above ground)",
    "mm_1to4": "",
    "source": "ESA flight photograph and the ESA flight front-view render, with ESA SPICE kernels (K1) (WAC baseline 495.2) as the ruler; our measurement",
    "status": "derived (length, height), stated (camera heights, ESA SPICE kernels (K1))",
