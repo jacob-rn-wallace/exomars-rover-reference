@@ -167,7 +167,7 @@
    "dimension": "Panel plane height above ground",
    "mm_1to1": "about 940 (+-40): the video photogrammetry 910 (850 to 950), Vago et al. 2017, Fig. 4 pixels 870 to 935, the thermal-vacuum photo with ESA SPICE kernels (K1)'s WAC height 938 (+-60), GTM1 plus the deck-edge drop 990 (+-50)",
    "mm_1to4": "235",
-   "source": "photogrammetry histogram; Vago et al. 2017, Fig. 4; ESA animation material and GTM1 with ESA SPICE kernels (K1)",
+   "source": "photogrammetry histogram; Vago et al. 2017, Fig. 4; the thermal-vacuum photo (, in the a-flight folder) and GTM1, both with ESA SPICE kernels (K1)",
    "status": "derived",
    "uncertainty": "about 40",
    "tier": "B"
