@@ -374,9 +374,9 @@
   {
    "section": "Mast head and PanCam",
    "dimension": "Dark reference cube on the camera unit (between the two lenses)",
-   "mm_1to1": "about 25 edge (19 to 31); cross marks on the three visible faces, dark top face, grey sides; sits on the front plate midway between the lenses beside a small sloping tab",
+   "mm_1to1": "about 25 edge (19 to 31); plain black on the real article (the cross marks on its three visible faces exist only in the Airbus CAD view); sits on the front plate midway between the lenses beside a small sloping tab",
    "source": "P23 (Winter et al., ASTRA 2015, Fig. 4 and slide 10, the camera CAD; scaled against the 150 lens baseline and the 290 housing)",
-   "status": "derived (size read from one oblique CAD view); role inferred: an optical alignment cube (cross marks are the usual theodolite reference), not a sensor; present on every photo and render that shows the Loc/NavCams and, in , with its own remove-before-flight cover beside the two lens covers, so it stays on the rover on Mars (observation from the ESA photographs)",
+   "status": "derived (size read from one oblique CAD view); role unknown: most likely a ground reference such as an alignment cube (a cube is the usual shape, and it has its own cover), but the crosses that suggested this are CAD only, and a light-control role is not excluded; not a Sun sensor; present on every photo and render that shows the Loc/NavCams and, in , with its own remove-before-flight cover beside the two lens covers, so it stays on the rover on Mars (observation from the ESA photographs)",
    "uncertainty": "about 25 percent",
    "tier": "C"
   },
