@@ -159,7 +159,7 @@
    "mm_1to4": "",
    "source": "ESA 360 video animation frame 36 (the left side, rectified onto a vertical plane with the camera model; ESA SPICE kernels (K1) as the check)",
    "status": "derived",
-   "uncertainty": "about 15 percent",
+   "uncertainty": "about 15 percent [animation-based: add 5 to 8 percent; ]",
    "tier": "C"
   },
   {
@@ -169,7 +169,7 @@
    "mm_1to4": "235",
    "source": "photogrammetry histogram; Vago et al. 2017, Fig. 4; the thermal-vacuum photo (, in the a-flight folder) and GTM1, both with ESA SPICE kernels (K1)",
    "status": "derived",
-   "uncertainty": "about 40",
+   "uncertainty": "about 40 [partly animation-based: see ]",
    "tier": "B"
   },
   {
@@ -329,7 +329,7 @@
    "mm_1to4": "",
    "source": "GTM1 ground-test-model front photo (ESA animation material), anchored on the ESA SPICE kernels (K1) LocCam pair (ESA SPICE kernels (K1)), shape and screws from ICES-2017-200 (P15); our measurement",
    "status": "derived",
-   "uncertainty": "y: about 15 mm (inner edges), 25 mm (Up outer edge); z about 30 mm; the fit residuals are 2 to 4 mm; checked against the ESA animation material thermal-vacuum photo (PCT and panel in one frame): PCT 55 +- 13 mm outboard of the panel's outer edge as predicted, and the panel plane at x about +220 +- 110",
+   "uncertainty": "y: about 15 mm (inner edges), 25 mm (Up outer edge); z about 30 mm; the fit residuals are 2 to 4 mm; checked against the ESA animation material thermal-vacuum photo (PCT and panel in one frame): PCT 55 +- 13 mm outboard of the panel's outer edge as predicted, and the panel plane at x about +220 +- 110 [partly animation-based: see ]",
    "tier": "C"
   },
   {
@@ -379,7 +379,7 @@
    "mm_1to4": "",
    "source": "ESA flight photograph and the ESA flight front-view render, with ESA SPICE kernels (K1) (WAC baseline 495.2) as the ruler; our measurement",
    "status": "derived (length, height), stated (camera heights, ESA SPICE kernels (K1))",
-   "uncertainty": "length about 7 percent; height about 20 mm",
+   "uncertainty": "length about 7 percent; height about 20 mm [partly animation-based: see ]",
    "tier": "C"
   },
   {
@@ -499,7 +499,7 @@
    "mm_1to4": "",
    "source": "triangulated from 18 video frames",
    "status": "derived",
-   "uncertainty": "about 10 to 20 relative to our photogrammetry frame; the frame itself is good to about 2.5 %",
+   "uncertainty": "about 10 to 20 relative to our photogrammetry frame; the frame itself is good to about 2.5 % [animation-based: add 5 to 8 percent; ]",
    "tier": "B"
   },
   {
@@ -539,7 +539,7 @@
    "mm_1to4": "",
    "source": "360 video, checked in the 2409 overhead",
    "status": "derived",
-   "uncertainty": "about 10 degrees",
+   "uncertainty": "about 10 degrees [animation-based: add 5 to 8 percent; ]",
    "tier": "B"
   },
   {
@@ -579,7 +579,7 @@
    "mm_1to4": "",
    "source": "ESA render label and caption (identity inferred from the label pointing at the post); ESA 360 animation frames triangulated with the camera model (our measurement)",
    "status": "stated (identity); derived (size and position)",
-   "uncertainty": "sizes about 20 mm; post 1 position about 30 mm, post 2 about 40 mm",
+   "uncertainty": "sizes about 20 mm; post 1 position about 30 mm, post 2 about 40 mm [animation-based: add 5 to 8 percent; ]",
    "tier": "C"
   },
   {
@@ -629,7 +629,7 @@
    "mm_1to4": "",
    "source": "animation frames",
    "status": "unknown",
-   "uncertainty": "",
+   "uncertainty": "[animation-based: add 5 to 8 percent; ]",
    "tier": "D"
   }
  ]
