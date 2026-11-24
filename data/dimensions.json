@@ -155,12 +155,12 @@
   {
    "section": "Locomotion",
    "dimension": "Bogie, steering and axle shapes and sizes",
-   "mm_1to1": "unknown",
+   "mm_1to1": "steering actuator 136 dia x 121 tall with its dome; leg fork plate 114 wide; hub cap 110; side bogie pivot disc 79; walking-joint cylinder 102 dia; bogie arm tube 42 thick (front and middle legs; ESA SPICE kernels (K1) gives the joints; the rear leg, the bogie beam section and fore-aft depths are not measured)",
    "mm_1to4": "",
-   "source": "no source (the fan model is not used)",
-   "status": "unknown",
-   "uncertainty": "unknown",
-   "tier": "D"
+   "source": "ESA 360 video animation frame 36 (the left side, rectified onto a vertical plane with the camera model; ESA SPICE kernels (K1) as the check)",
+   "status": "derived",
+   "uncertainty": "about 15 percent",
+   "tier": "C"
   },
   {
    "section": "Solar array",

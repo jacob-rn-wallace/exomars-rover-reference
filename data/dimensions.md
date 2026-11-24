@@ -29,7 +29,7 @@ Unofficial reference, not affiliated with ESA. See `../docs/TIERS.md` for the st
 | Wheelbase, rear to front wheel centres | 1454.6 | 364 | ESA SPICE kernels (K1) (wheel x 705.0, 55.0, -749.6); the photogrammetric circle fits gave 1455 | stated (ESA/ROCC operational geometry) | about 0 | A |
 | Rear-to-middle / middle-to-front spacing | 804.6 / 650.0 | 201 / 162.5 | ESA SPICE kernels (K1); the photogrammetry gave 807 / 648 | stated (ESA/ROCC operational geometry) | about 0 | A |
 | Body underside width | 845 | 211 | Vago et al. 2017, Fig. 4 (what the extension lines span is our reading) | derived | about 20 | B |
-| Bogie, steering and axle shapes and sizes | unknown |  | no source (the fan model is not used) | unknown | unknown | D |
+| Bogie, steering and axle shapes and sizes | steering actuator 136 dia x 121 tall with its dome; leg fork plate 114 wide; hub cap 110; side bogie pivot disc 79; walking-joint cylinder 102 dia; bogie arm tube 42 thick (front and middle legs; ESA SPICE kernels (K1) gives the joints; the rear leg, the bogie beam section and fore-aft depths are not measured) |  | ESA 360 video animation frame 36 (the left side, rectified onto a vertical plane with the camera model; ESA SPICE kernels (K1) as the check) | derived | about 15 percent | C |
 
 ## Solar array
 
