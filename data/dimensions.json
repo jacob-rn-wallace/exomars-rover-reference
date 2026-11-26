@@ -368,7 +368,7 @@
    "mm_1to1": "290 x 82 x 79 (mass under 800 g; stereo baseline 150; focal length 4.0 mm; f/8; 1024 x 1024)",
    "source": "P23 (Winter et al., ASTRA 2015, Table 2)",
    "status": "stated (the paper's design table of 2015, which also lists the identical size for the IMU, a probable copy slip)",
-   "uncertainty": "about 0 as stated; unverified against flight hardware; the nominal baseline 150 differs from ESA SPICE kernels (K1)'s 154",
+   "uncertainty": "about 0 as stated; unverified against flight hardware; the nominal baseline 150 differs from ESA SPICE kernels (K1)'s 154; CONFLICT 2026-11-26: our photo measurement of the LocCam housing front face is about 217 x 63 (docs/loccam-housing.md), not 290 x 82; the lens spacing agrees (149.3 against 150), so the stated width may be an envelope including parts we did not mark, or the table is unreliable",
    "tier": "B"
   },
   {
@@ -378,6 +378,15 @@
    "source": "P23 (Winter et al., ASTRA 2015, Fig. 4 and slide 10, the camera CAD; scaled against the 150 lens baseline and the 290 housing); ESA photograph 'ExoMars rover camera system' (ground test model, square-on view of the NavCam housing, scaled against the lens spacing: 26 to 28); the flight remove-before-flight cover in 'ExoMars rover joins Kazachok platform' (37, the cover is larger than the part); the ESA twin-rover head photograph (oblique, 35)",
    "status": "derived (three readings: the Airbus CAD 25, a square-on ground-test-model photograph 26 to 28, oblique twin photograph 35 that overstates the width because of depth; the real part is a matte black block, held by yellow Kapton tape on the ground test model and the twin, with a red remove-before-flight cover on the flight rover); role unknown: most likely a ground reference such as an alignment cube (a cube is the usual shape, and it has its own cover), but the crosses that suggested this are CAD only, and a light-control role is not excluded; not a Sun sensor; present on every photo and render that shows the Loc/NavCams and, in , with its own remove-before-flight cover beside the two lens covers, so it stays on the rover on Mars (observation from the ESA photographs)",
    "uncertainty": "about 12 percent on the width; its depth is unmeasured",
+   "tier": "C"
+  },
+  {
+   "section": "Mast head and PanCam",
+   "dimension": "LocCam housing box and lens positions, measured from photographs (flight-like hardware)",
+   "mm_1to1": "front face about 217 wide (216.8 to 217.4) x 62 to 64 tall, top face about 26 deep; lens centre spacing 149.3; collar ear screws 33 apart on each lens; the black cube about 23 to 25 wide x 21 tall x 21 deep, centred on the housing (Y centre -8 against housing -7.5), its top flush with the housing top, its front about 17 to 20 proud of the front face",
+   "source": "lens spacing checked against the stated 150 baseline (P31)",
+   "status": "derived (photograph triangulation, 2 to 5 views per point; plate-frame scale from the ALD screws, P15)",
+   "uncertainty": "width and spacing about 1 to 2 (ray miss 0.3 to 4 mm; top and bottom widths agree to 1); depth about 5 to 10; the cube about 3 to 4 (black, low contrast); the front-face width and height DISAGREE with the stated 290 x 82 x 79 of the row above (which may include flanges, a base or a connector we did not mark, or be unreliable)",
    "tier": "C"
   },
   {
