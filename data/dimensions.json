@@ -546,7 +546,7 @@
    "section": "Deck items",
    "dimension": "FidM positions",
    "mm_1to1": "disc tops, ESA SPICE kernels (K1) (x, y, z mm): beside the PCT (463, -787, 937); middle left by a hinge (-272, +675, 943); bottom right (-762, -222, 923)",
-   "source": "docs/fidm-positions.md",
+   "source": "photographs exomars-rover-completes-environmental-tests, CIfWfecJ8q4, exomars-rover-front-view, mars-star, exomars-rover-joins-kazachok-platform-en-8236 and others with an ALD pose) triangulated, tied to the rover frame through the PCT screws; docs/fidm-positions.md",
    "status": "derived (photograph triangulation; the pipeline checked on the PCT: screw triangle 58.0 / 58.0 / 56.8 against 58.0, sphere spacing 21.0 against 21.0, PCT centre 22 mm from its ESA SPICE kernels (K1) value)",
    "uncertainty": "beside the PCT: x +-50, y +-15, z +-35; middle left: x +-80, y +-25, z +-35; bottom right: x +-130, y +-40, z +-45 (its rays are nearly parallel); z from the ALD panel top at 900 +-30",
    "tier": "C"
