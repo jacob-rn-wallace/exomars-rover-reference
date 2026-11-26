@@ -391,6 +391,15 @@
   },
   {
    "section": "Mast head and PanCam",
+   "dimension": "SVM radiator plates (the two side radiators): plate size and screw layout",
+   "mm_1to1": "400 x 160 plate (corners rounded, about 12 radius); eight screws in four rows along the long axis at 18.8, 140.2, 261.6 and 383.0 mm (pitch 121) and two lines across it at 29.1 and 145.4 mm from one long edge (margins 29.1 and 14.6)",
+   "source": "P15 (ICES-2017-200 Fig. 15, top row, inside view) scaled to the stated plate area 0.064 m2 (R17 Table 1, SVM LHPs); docs/svm-radiator.md",
+   "status": "derived (pixel measurement of the figure, scaled to the stated area; the drawing is assumed to be to scale)",
+   "uncertainty": "about 3 percent (scale); the pattern's handedness on the outside face is not established",
+   "tier": "C"
+  },
+  {
+   "section": "Mast head and PanCam",
    "dimension": "ISEM optical box / electronics box (replaced by Enfys)",
    "mm_1to1": "160 x 80 x 96 / 116 x 84 x 55; ISEM sat 154 mm right of the pan-tilt axis and 85 below the NavCam level in the kernel; Enfys (its replacement) sits on top of the mast directly under the HRC, size not published",
    "source": "Korablev et al. 2017 Table 2 (ISEM); Enfys LPSC abstract 2025 (placement); ESA SPICE kernels (K1)",
