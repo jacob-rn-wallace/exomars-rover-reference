@@ -545,11 +545,11 @@
   {
    "section": "Deck items",
    "dimension": "FidM positions",
-   "mm_1to1": "unknown",
-   "source": "arrows in Fig. 11 only (left-rear corner area, front tongue beside the PCT, right-rear bracket)",
-   "status": "unknown",
-   "uncertainty": "about 100 or worse; still no numerical positions",
-   "tier": "D"
+   "mm_1to1": "disc tops, ESA SPICE kernels (K1) (x, y, z mm): beside the PCT (463, -787, 937); middle left by a hinge (-272, +675, 943); bottom right (-762, -222, 923)",
+   "source": "docs/fidm-positions.md",
+   "status": "derived (photograph triangulation; the pipeline checked on the PCT: screw triangle 58.0 / 58.0 / 56.8 against 58.0, sphere spacing 21.0 against 21.0, PCT centre 22 mm from its ESA SPICE kernels (K1) value)",
+   "uncertainty": "beside the PCT: x +-50, y +-15, z +-35; middle left: x +-80, y +-25, z +-35; bottom right: x +-130, y +-40, z +-45 (its rays are nearly parallel); z from the ALD panel top at 900 +-30",
+   "tier": "C"
   },
   {
    "section": "Deck items",
