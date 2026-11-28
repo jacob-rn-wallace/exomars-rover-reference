@@ -386,7 +386,7 @@
    "mm_1to1": "front face about 217 wide (216.8 to 217.4) x 62 to 64 tall, top face about 26 deep; lens centre spacing 149.3; collar ear screws 33 apart on each lens; the black cube about 23 to 25 wide x 21 tall x 21 deep, centred on the housing (Y centre -8 against housing -7.5), its top flush with the housing top, its front about 17 to 20 proud of the front face",
    "source": "lens spacing checked against the stated 150 baseline (P31)",
    "status": "derived (photograph triangulation, 2 to 5 views per point; plate-frame scale from the ALD screws, P15)",
-   "uncertainty": "width and spacing about 1 to 2 (ray miss 0.3 to 4 mm; top and bottom widths agree to 1); depth about 5 to 10; the cube about 3 to 4 (black, low contrast); the front-face width and height DISAGREE with the stated 290 x 82 x 79 of the row above (which may include flanges, a base or a connector we did not mark, or be unreliable)",
+   "uncertainty": "width and spacing about 1 to 2 (ray miss 0.3 to 4 mm; top and bottom widths agree to 1); depth about 5 to 10; the cube about 3 to 4 (black, low contrast); the front-face width and height DISAGREE with the stated 290 x 82 x 79 of the row above (which may include flanges, a base or a connector we did not mark, or be unreliable); 2026-11-28 bundle adjustment (41 photographs, only the ALD screws as anchors): width 218.1 (top and bottom), height 63.3 / 63.6, lens spacing 149.3, collar ear spacing 33.3 / 33.5; the black cube 22.5 wide x 22.1 tall x 18 deep (front 22.5 x 22.1, top width 22.3), smaller than the 23 to 25 x 21 x 21 of the first ray estimate",
    "tier": "C"
   },
   {
@@ -395,7 +395,7 @@
    "mm_1to1": "400 x 160 plate (corners rounded, about 12 radius); eight screws in four rows along the long axis at 18.8, 140.2, 261.6 and 383.0 mm (pitch 121) and two lines across it at 29.1 and 145.4 mm from one long edge (margins 29.1 and 14.6); MEASURED 2026-11-26 (left radiator, two photographs with an ALD pose, docs/svm-radiator.md): row pitch 120.3, screw lines 112.0 apart, plate about 409 x 161, the screw plane at ESA SPICE kernels (K1) y = +392, plate centre about x = -91, z = 463 (screws z 518 upper line, 408 lower)",
    "source": "P15 (ICES-2017-200 Fig. 15, top row, inside view) scaled to the stated plate area 0.064 m2 (R17 Table 1, SVM LHPs); docs/svm-radiator.md",
    "status": "derived (pixel measurement of the figure, scaled to the stated area; the drawing is assumed to be to scale)",
-   "uncertainty": "about 3 percent (scale); the pattern's handedness on the outside face is not established; position +-40 in y and +-60 in x and z (two views); margins +-8; the right radiator is not measured; 2026-11-27 re-run with 8 photographs: left plate row pitch 121.2, screw lines 112.5, plate 412 x 160 (the 2-photograph values stand); the right plate is not reliable (grid residual 10 mm)",
+   "uncertainty": "about 3 percent (scale); the pattern's handedness on the outside face is not established; position +-40 in y and +-60 in x and z (two views); margins +-8; the right radiator is not measured; 2026-11-27 re-run with 8 photographs: left plate row pitch 121.2, screw lines 112.5, plate 412 x 160 (the 2-photograph values stand); the right plate is not reliable (grid residual 10 mm); 2026-11-28 bundle adjustment (docs/bundle-adjustment.md): BOTH plates measured: left row pitch 118.1, screw lines 113.5 apart, plane rms 0.6 mm, centre ESA SPICE kernels (K1) y +403, x -79, z 460; right row pitch 120.9, lines 116.5, plane rms 0.3 mm, centre ESA SPICE kernels (K1) y -412, x -83, z 451: the right plate is the mirror of the left to about 10 mm (supports the 'symmetrical' statement of P15)",
    "tier": "C"
   },
   {
@@ -548,7 +548,7 @@
    "mm_1to1": "disc tops, ESA SPICE kernels (K1) (x, y, z mm): beside the PCT (463, -787, 937); middle left by a hinge (-272, +675, 943); bottom right (-762, -222, 923)",
    "source": "photographs exomars-rover-completes-environmental-tests, CIfWfecJ8q4, exomars-rover-front-view, mars-star, exomars-rover-joins-kazachok-platform-en-8236 and others with an ALD pose) triangulated, tied to the rover frame through the PCT screws; docs/fidm-positions.md",
    "status": "derived (photograph triangulation; the pipeline checked on the PCT: screw triangle 58.0 / 58.0 / 56.8 against 58.0, sphere spacing 21.0 against 21.0, PCT centre 22 mm from its ESA SPICE kernels (K1) value)",
-   "uncertainty": "beside the PCT: x +-50, y +-15, z +-35; middle left: x +-80, y +-25, z +-35; bottom right: x +-130, y +-40, z +-45 (its rays are nearly parallel); z from the ALD panel top at 900 +-30",
+   "uncertainty": "beside the PCT: x +-50, y +-15, z +-35; middle left: x +-80, y +-25, z +-35; bottom right: x +-130, y +-40, z +-45 (its rays are nearly parallel); z from the ALD panel top at 900 +-30; 2026-11-28 bundle adjustment agrees within 25 mm: ESA SPICE kernels (K1) (457, -789, 936), (-287, 680, 941), (-735, -216, 932)",
    "tier": "C"
   },
   {
